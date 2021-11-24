@@ -66,6 +66,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 20px 0;
+  flex-wrap: wrap;
 }
 
 .skill {
@@ -104,3 +105,10 @@ body {
   opacity: 0.9;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 510px) {
+  .container {
+    width: 100vw;
+  }
+}
+
