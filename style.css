@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans", Arial, Tahoma;
+  font-weight: 400;
+
+  color: #363636;
+  background: #ccdef0;
+}
+
+.container {
+  width: 90vw;
+
+  margin: 0.1rem auto;
+  padding: 1rem;
+  background: #fff;
+}
+
+.name h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 2.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+.education {
+  padding: 2rem;
+}
+
+.education h1,
+.programming h2,
+.contacts h2 {
+  background: rgba(0, 0, 0, 0.397);
+  color: white;
+  text-align: center;
+}
+
+.course-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.where {
+  color: #3b3a3a;
+}
+.year {
+  opacity: 0.7;
+}
+
+.course {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.skill {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: 0.85em;
+}
+.Learning {
+  background: black;
+}
+.contacts {
+  height: 200px;
+}
+.contact {
+  width: 100%;
+  float: left;
+}
+.icon {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+
+.contact-by {
+  position: relative;
+  left: 2%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+  margin-top: 10px;
+}
